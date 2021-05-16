@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Operators",
+      "request": "launch",
+      "mainClass": "Operators",
+      "projectName": "1Z0-815_ff02a868"
+    },
+    {
+      "type": "java",
       "name": "Launch NumericPromotion",
       "request": "launch",
       "mainClass": "NumericPromotion",

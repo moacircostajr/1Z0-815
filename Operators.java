@@ -32,6 +32,9 @@ public class Operators {
         System.out.println(a);
 
     // add any print statements here
+    System.out.println((char)81);
+    System.out.println((int)'Q');
+    System.out.println((byte)128); // overflow: byte = from -128 to 127
     System.out.println("Hello World");
   }
 
