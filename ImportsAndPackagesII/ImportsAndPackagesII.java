@@ -1,6 +1,6 @@
 import java.nio.file.Files;
 import com.google.gson.*; // import external library inside libs folder
-import packagea.InputImports;
+import packagea.*;
 
 public class ImportsAndPackagesII {
   public static void main(String args[]) {
@@ -15,10 +15,8 @@ public class ImportsAndPackagesII {
 // !!! IMPORTANT !!!
 
 // COMPILE AND RUN WITH EXTERNAL LIBRARY AND IMPORT AN OTHER CLASS FROM PROJECT
-// $ export
-// CLASSPATH="/home/moacir/Development/CODE_LAB/java/1Z0-815/ImportsAndPackagesII/libs/gson-2.8.6.jar"
-// $ javac -d classes -classpath $CLASSPATH packages/packagea/InputImports.java
-// ImportsAndPackagesII.java
+// $ export CLASSPATH="/home/moacir/Development/CODE_LAB/java/1Z0-815/ImportsAndPackagesII/libs/*"
+// $ javac -d classes -classpath $CLASSPATH packages/packagea/* ImportsAndPackagesII.java
 // $ java --class-path "classes:libs/*" ImportsAndPackagesII
 
 // CREATE A JAR WITH EXTERNAL LIBRARY AND IMPORT AN OTHER CLASS FROM PROJECT
