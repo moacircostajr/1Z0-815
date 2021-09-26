@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ImportsAndPackagesII",
+      "request": "launch",
+      "mainClass": "ImportsAndPackagesII.ImportsAndPackagesII",
+      "projectName": "1Z0-815_ff02a868"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestClass",
+      "request": "launch",
+      "mainClass": "TestClass",
+      "projectName": "1Z0-815_ff02a868"
+    },
+    {
+      "type": "java",
       "name": "Launch Operators",
       "request": "launch",
       "mainClass": "Operators",

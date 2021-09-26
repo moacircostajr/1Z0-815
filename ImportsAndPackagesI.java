@@ -1,5 +1,5 @@
 import java.util.Random; // read from left to right (Random is the class)
-import java.util.*; // import all classes in the package (wildcard)
+// import java.util.*; // import all classes in the package (wildcard)
 
 public class ImportsAndPackagesI {
   public static void main(String args[]) {

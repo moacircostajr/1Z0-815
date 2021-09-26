@@ -2,10 +2,10 @@
 // add any necessary import statements here
 
 public class NumericPromotion {
-  public static void main(String[] args) {   // error: 'main' method is not declared 'public static'
+  public static void main(String[] args) { // error: 'main' method is not declared 'public static'
     // add test code here
     float x = 1.2f;
-    short y = 3300000000;
+    short y = 33;
     var z = x * y;
     System.out.println(z);
     // add any print statements here
