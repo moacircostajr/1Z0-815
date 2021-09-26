@@ -1,4 +1,4 @@
-public class SintaxeVariaveisFluxo {
+public class TestaSintaxeVariaveisFluxo {
     public static void main(String[] args) {
         System.out.println("Olá novo teste");
         int idade = 37;
